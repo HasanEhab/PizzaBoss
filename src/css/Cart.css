@@ -1,0 +1,13 @@
+.cart{
+    min-height: 50vh;
+    }
+@media (max-width:600px) {
+.subtotal_text{
+    font-size: 16px !important;
+    margin-top: 11px !important;
+}
+.subtotal_num{
+    font-size: 26px !important;
+
+}    
+}

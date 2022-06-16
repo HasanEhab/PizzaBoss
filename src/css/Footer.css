@@ -1,0 +1,16 @@
+.footer-logo{
+height: 20vh;
+}
+@media (max-width:991px){
+    .footer-logo{
+        height: 80px;
+        }
+}
+
+
+.social{
+    font-size: 25px;
+}
+.copy{
+    font-size: 14px;
+}

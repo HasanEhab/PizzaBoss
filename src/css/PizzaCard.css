@@ -1,0 +1,45 @@
+.pizzaCard__title{
+text-align: center;
+font-size: 30px;
+text-transform: capitalize;
+font-weight: bold;
+}
+
+.pizzaCard__avatar{
+    background-color: rgba(255, 255, 255, 0.898);
+    border-radius: 15px;
+    position: relative;
+}
+
+.pizzaCard__avatar__rate{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    color: rgb(159, 23, 23);
+    font-size: 20px;
+}
+.pizzaCard__avatar__rate__heart{
+cursor: pointer;
+}
+.pizzaCard__add{
+    background-color: black;
+    color: white;
+}
+.pizzaCard__add:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.pizzaCard__desc{
+font-size: 14px;
+text-transform: capitalize;
+}
+
+@media (max-width:450px) {
+    .pizzaCard__desc{
+    font-size: 3vw;
+    }    
+}
+

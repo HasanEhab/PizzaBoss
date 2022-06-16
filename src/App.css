@@ -1,5 +1,15 @@
+*{
+  scroll-behavior: smooth;
+}
+body{
+  background-image: url(./assets/back.jpg);
+}
+
 .App {
   text-align: center;
+  background-color: rgba(215, 215, 215, 0.766);
+  
+
 }
 
 .App-logo {
