@@ -38,24 +38,24 @@ function CartItem(props) {
   return (
     <div className='cart-item col-12 my-2 my-sm-4 d-flex container'>
         <div className='col-6 d-flex align-items-center'>
-            <img className='w-50' src={props.data.img}/>
-            <div className='d-flex flex-column justify-content-center px-2'>
-            <span  className='text-start text-capitalize fs-3 text-danger cart-text_title mb-1'>{props.name}</span>
-            <span  className='text-start text-capitalize fs-6 cart-text mb-1'>Size : {props.data.size}</span>
-            <span  className='text-start text-capitalize fs-6 cart-text mb-1'>Sause : {props.data.souce}</span>    
+            <img className='cart_item_img' src={props.data.img}/>
+            <div className='d-flex flex-column justify-content-center px-1 px-sm-2'>
+            <span  className='text-start text-capitalize text-danger cart-text_title mb-1'>{props.name}</span>
+            <span  className='text-start text-capitalize  cart-text mb-1'>Size : {props.data.size}</span>
+            <span  className='text-start text-capitalize  cart-text mb-1'>Sause : {props.data.souce}</span>    
             </div>
 
         </div>
         <div className='col-6 d-flex align-items-center justify-content-around '>
             <div className='d-flex m-lg-5 m-sm-3 m-1'>
-                <div className='mx-2 fs-3 cart-text sub' onClick={subtract}>-</div>
-                <div className='num fs-3 cart-text'>{count}</div>
-                <div className='mx-2 fs-3 cart-text add' onClick={addittion}>+</div>
+                <div className='mx-2  cart-text sub right_side_data' onClick={subtract}>-</div>
+                <div className='num  cart-text right_side_data'>{count}</div>
+                <div className='mx-2  cart-text add right_side_data' onClick={addittion}>+</div>
             </div>   
-            <div className='d-flex m-lg-5 m-sm-3 m-1 fs-3 cart-text'>
+            <div className='d-flex m-lg-5 m-sm-3 m-1  cart-text right_side_data'>
                 ${total}
             </div>   
-            <div className='d-flex m-lg-5 m-sm-3 m-1 fs-2 fw-bold cart-text item-remove' onClick={()=>{dispatch(removeFromCart(props.id));dispatch(removeTotal(props.id));}}>
+            <div className='d-flex m-lg-5 m-sm-3 m-1  fw-bold cart-text item-remove right_side_data' onClick={()=>{dispatch(removeFromCart(props.id));dispatch(removeTotal(props.id));}}>
                 x
             </div>   
         </div>      
