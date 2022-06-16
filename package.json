@@ -1,7 +1,7 @@
 {
   "name": "pizza-boss",
   "version": "0.1.0",
-  "homepage": "https://hasanehab.github.io/PizzaBoss",
+  "homepage": "https://hasanehab.github.io/PizzaBoss/",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.2",
