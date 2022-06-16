@@ -49,7 +49,7 @@
 }
 
 .dot.active{
-   background-color:rgb(255,193,7);
+   background-color:rgb(255,193,7) !important;
 }
 .active{
    color:rgb(255,193,7) !important;

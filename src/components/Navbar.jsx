@@ -52,7 +52,7 @@ function Navbar(props){
         // <nav className="navbar navbar-dark bg-dark">
             <nav className="navbar navbar-expand-lg navbar navbar-dark bg-black">
                 <div className="container">
-                    <NavLink className="navbar-brand" to="/"  onClick={()=>navigation(true)}><img  className="logo p-0 m-0" src={logo} alt='logo'/></NavLink>
+                    <NavLink className="navbar-brand" to="PizzaBoss/"  onClick={()=>navigation(true)}><img  className="logo p-0 m-0" src={logo} alt='logo'/></NavLink>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                     </button>
@@ -78,10 +78,10 @@ function Navbar(props){
                 
                     <ul className="navbar-nav mb-2 mb-lg-0">
                         <li className="nav-item">
-                        <NavLink className="nav-link" to="/favorite" onClick={()=>navigation(false)}><i className="fa-regular fa-heart"></i></NavLink>
+                        <NavLink className="nav-link" to="PizzaBoss/favorite" onClick={()=>navigation(false)}><i className="fa-regular fa-heart"></i></NavLink>
                         </li>
                         <li className="nav-item ">
-                        <NavLink className="nav-link" to="/cart" onClick={()=>navigation(false)}><i className="fa-solid fa-cart-shopping">{cart.length?<div className="cart_num">{cart.length}</div>:''}</i></NavLink>
+                        <NavLink className="nav-link" to="PizzaBoss/cart" onClick={()=>navigation(false)}><i className="fa-solid fa-cart-shopping">{cart.length?<div className="cart_num">{cart.length}</div>:''}</i></NavLink>
                         </li>
                     </ul>
                     </div>
