@@ -21,9 +21,9 @@ function App() {
         <Navbar />
         <Cover/>
           <Routes>
-            <Route path='/' element={<Home/>}/>
-            <Route path='/favorite' element={<FavPizza/>}/>
-            <Route path='/cart' element={<Cart/>}/>
+            <Route path='PizzaBoss/' element={<Home/>}/>
+            <Route path='PizzaBoss/favorite' element={<FavPizza/>}/>
+            <Route path='PizzaBoss/cart' element={<Cart/>}/>
           </Routes>
         <Footer/>
       </div>
