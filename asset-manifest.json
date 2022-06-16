@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/PizzaBoss/static/css/main.801c04db.css",
+    "main.css": "/PizzaBoss/static/css/main.c0f789ba.css",
     "main.js": "/PizzaBoss/static/js/main.1d17360a.js",
     "static/media/ourstory.png": "/PizzaBoss/static/media/ourstory.9c2ecbef6d43d7043d4b.png",
     "static/media/cover_1.png": "/PizzaBoss/static/media/cover_1.2272920e42d924737d9d.png",
@@ -22,11 +22,11 @@
     "static/media/logo.PNG": "/PizzaBoss/static/media/logo.9a600f957594f4347090.PNG",
     "static/media/contact-us.png": "/PizzaBoss/static/media/contact-us.2d5ed97f9391a13b9e51.png",
     "index.html": "/PizzaBoss/index.html",
-    "main.801c04db.css.map": "/PizzaBoss/static/css/main.801c04db.css.map",
+    "main.c0f789ba.css.map": "/PizzaBoss/static/css/main.c0f789ba.css.map",
     "main.1d17360a.js.map": "/PizzaBoss/static/js/main.1d17360a.js.map"
   },
   "entrypoints": [
-    "static/css/main.801c04db.css",
+    "static/css/main.c0f789ba.css",
     "static/js/main.1d17360a.js"
   ]
 }
