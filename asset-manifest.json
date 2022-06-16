@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/PizzaBoss/static/css/main.a871d847.css",
+    "main.js": "/PizzaBoss/static/js/main.28d18e54.js",
+    "static/media/ourstory.png": "/PizzaBoss/static/media/ourstory.9c2ecbef6d43d7043d4b.png",
+    "static/media/cover_1.png": "/PizzaBoss/static/media/cover_1.2272920e42d924737d9d.png",
+    "static/media/cover_3.jpg": "/PizzaBoss/static/media/cover_3.fa37ff778ee5f39bd3bf.jpg",
+    "static/media/cover_2.jpg": "/PizzaBoss/static/media/cover_2.6dbba0494a5f0be246e0.jpg",
+    "static/media/back.jpg": "/PizzaBoss/static/media/back.9d4c799311bb99fac11a.jpg",
+    "static/media/mashroom.png": "/PizzaBoss/static/media/mashroom.11617f5141f0f8a54ded.png",
+    "static/media/vegetarian.png": "/PizzaBoss/static/media/vegetarian.5c8d8c0360de96d930b9.png",
+    "static/media/green.png": "/PizzaBoss/static/media/green.b4397aa08cfb6789ccba.png",
+    "static/media/tuna.png": "/PizzaBoss/static/media/tuna.a838d4a9f23b63dc1db6.png",
+    "static/media/4 seasons.png": "/PizzaBoss/static/media/4 seasons.e6f30fc26773c428068e.png",
+    "static/media/seafood.png": "/PizzaBoss/static/media/seafood.1584051b28dd817e4f48.png",
+    "static/media/chicken.png": "/PizzaBoss/static/media/chicken.d4a481d508f5723f7a2f.png",
+    "static/media/margrita.png": "/PizzaBoss/static/media/margrita.889d8845d2734a12c1f7.png",
+    "static/media/beef.png": "/PizzaBoss/static/media/beef.43daab099dfd4281799d.png",
+    "static/media/peproni.png": "/PizzaBoss/static/media/peproni.466b837eef6e8675ca21.png",
+    "static/media/bbq.png": "/PizzaBoss/static/media/bbq.d103073c64368c7089f5.png",
+    "static/media/cheese.png": "/PizzaBoss/static/media/cheese.f50a83ce00f95a1c10bf.png",
+    "static/media/logo.PNG": "/PizzaBoss/static/media/logo.9a600f957594f4347090.PNG",
+    "static/media/contact-us.png": "/PizzaBoss/static/media/contact-us.2d5ed97f9391a13b9e51.png",
+    "index.html": "/PizzaBoss/index.html",
+    "main.a871d847.css.map": "/PizzaBoss/static/css/main.a871d847.css.map",
+    "main.28d18e54.js.map": "/PizzaBoss/static/js/main.28d18e54.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a871d847.css",
+    "static/js/main.28d18e54.js"
+  ]
+}
